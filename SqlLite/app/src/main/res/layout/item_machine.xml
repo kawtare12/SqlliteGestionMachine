@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itmachine"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/purple_200"
+   >
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="123dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="4dp"
+        android:text=" ID: 12345"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="158dp"
+        android:layout_height="33dp"
+        android:text="Reférence:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        android:drawablePadding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="158dp"
+        android:layout_height="33dp"
+        android:text="Price :"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:drawablePadding="4dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="158dp"
+        android:layout_height="33dp"
+        android:text="DateAchat:"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:drawablePadding="4dp"/>
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="158dp"
+        android:layout_height="33dp"
+        android:text="Marque :"
+        android:layout_marginTop="120dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:drawablePadding="4dp"/>
+
+    <TextView
+        android:id="@+id/reference"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="180dp"
+
+        android:textSize="25sp"
+         />
+
+    <TextView
+        android:id="@+id/prix"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="40dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/marque"
+        android:layout_width="170dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="120dp"
+        android:textSize="25sp"
+       />
+
+
+
+
+
+</RelativeLayout>
